@@ -1,0 +1,9 @@
+.wordDisplay {
+    align-items: center;
+    margin-left: 200px;
+}
+
+.main {
+    margin-left: 150px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+}

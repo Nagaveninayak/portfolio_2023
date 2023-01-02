@@ -1,0 +1,39 @@
+{
+    // typescript
+    "typescript.tsdk": "./node_modules/typescript/lib",
+    "[typescript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features",
+        "editor.formatOnSave": true
+    },
+    // vs code editor settings
+    "editor.renderWhitespace": "boundary",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "editor.formatOnSave": true,
+    "eslint.workingDirectories": [
+        "./"
+    ],
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
+    ],
+    "eslint.format.enable": true,
+    "eslint.run": "onSave",
+    "eslint.codeActionsOnSave.mode": "all",
+    "tabnine.experimentalAutoImports": true,
+    "workbench.iconTheme": "material-icon-theme"
+}
+// {
+//   "tabnine.experimentalAutoImports": true,
+//   "diffEditor.ignoreTrimWhitespace": false,
+//   "typescript.tsdk": "./node_modules/typescript/lib",
+//   "typescript.tsserver.useSyntaxServer": "always",
+//   "editor.accessibilitySupport": "off",
+//   "typescript.validate.enable": true,
+// }
